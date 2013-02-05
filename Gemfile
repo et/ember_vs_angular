@@ -12,3 +12,8 @@ group :assets do
   gem 'sass-rails', '~> 3.2'
   gem 'handlebars_assets'
 end
+
+group :test, :development do
+  gem 'konacha'
+  gem 'poltergeist'
+end
