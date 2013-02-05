@@ -13,4 +13,4 @@
 //= require ./router
 //= require_tree ./routes
 
-EmberVsAngular = Em.Application.create({LOG_TRANSITIONS: true});
+App = Ember.Application.create({LOG_TRANSITIONS: true});
