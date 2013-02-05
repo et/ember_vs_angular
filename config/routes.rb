@@ -1,4 +1,4 @@
 EmberVsAngular::Application.routes.draw do
-  root to: 'ember#index'
-  match "/*path" => "ember#index"
+  match "/ember"   => "ember#index"
+  match "/angular" => "angular#index"
 end

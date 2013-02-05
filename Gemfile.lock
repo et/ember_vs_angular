@@ -9,14 +9,6 @@ GIT
       railties (>= 3.1)
 
 GIT
-  remote: git://github.com/ludicast/angular-rails.git
-  revision: f69d9caaeb4e3e0eca470affdda81c60f9410819
-  specs:
-    angular-rails (0.0.12)
-      coffee-script (~> 2.2.0)
-      rails
-
-GIT
   remote: git://github.com/rails-api/active_model_serializers.git
   revision: cef10cf01dfe18f72060bda279d5246c156ae737
   specs:
@@ -66,10 +58,6 @@ GEM
       xpath (~> 0.1.4)
     childprocess (0.3.7)
       ffi (~> 1.0, >= 1.0.6)
-    coffee-script (2.2.0)
-      coffee-script-source
-      execjs
-    coffee-script-source (1.4.0)
     colorize (0.5.8)
     erubis (2.7.0)
     eventmachine (1.0.0)
@@ -171,7 +159,6 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers!
-  angular-rails!
   ember-rails!
   handlebars_assets
   jquery-rails
