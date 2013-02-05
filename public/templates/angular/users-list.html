@@ -1,0 +1,7 @@
+<ul>
+  <li ng-repeat='user in users | orderBy:orderProp'>
+    {{ user.name }}
+    <p>{{ user.email }}</p>
+    <p>{{ user.age }}</p>
+  </li>
+</ul>
