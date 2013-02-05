@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='en' ng-app>
   <head>
     <%= stylesheet_link_tag :application, :media => :all %>
     <%= javascript_include_tag :angular_application %>
     <title>Title</title>
   </head>
-  <body>
+  <body ng-controller="UserListCtrl">
+    <ul>
+      <li ng-repeat="user in users | orderBy:orderProp">
+        {{user.name}}
+        <p>{{user.email}}</p>
+        <p>{{user.age}}</p>
+      </li>
+    </ul>
   </body>
 </html>
