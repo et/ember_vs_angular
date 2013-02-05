@@ -6,4 +6,4 @@ The ember and angular apps are namespaced to /ember and /angular, respectively.
 
 ## Resources
 * https://github.com/dgeb/ember_data_example
-* https://github.com/emberjs/ember-rails
+* http://docs.angularjs.org/tutorial/
